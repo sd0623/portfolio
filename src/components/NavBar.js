@@ -33,7 +33,7 @@ export const NavBar = () => {
         <Container>
             <Navbar.Brand href="#home">
                 {/* <img src={logo} alt="logo" /> */}
-                <h1>Sathwika</h1>
+                <h1>Sathwika D.</h1>
             </Navbar.Brand>
 
             <Navbar.Toggle aria-controls="basic-navbar-nav" > 
@@ -43,16 +43,15 @@ export const NavBar = () => {
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
                 <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
-                <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
+                <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>About</Nav.Link>
                 <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
             </Nav>
                 <span className="navbar-text">
                     <div className="social-icon">
-                        <a href="#"><img src={navIcon1} alt="linkedin" /></a>
-                        <a href="#"><img src={navIcon2} alt="github" /></a>
-                        <a href="#"><img src={navIcon3} alt="resume" /></a>
+                        <a href="https://www.linkedin.com/in/sd0623" target="_blank"><img src={navIcon1} alt="linkedin" /></a>
+                        <a href="https://github.com/sd0623" target="_blank"><img src={navIcon2} alt="github" /></a>
+                        <a href="https://drive.google.com/file/d/1uPRSIB0Y_p_01UPasUvYiivlCjOHg8T9/view?usp=share_link" target="_blank"><img src={navIcon3} alt="resume" /></a>
                     </div>
-                    <button className="vvd" onClick={() => console.log('connect')}><span>Let's connect</span></button>
                 </span>
 
             </Navbar.Collapse>
