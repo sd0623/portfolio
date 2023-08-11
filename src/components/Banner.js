@@ -58,17 +58,16 @@ export const Banner = () => {
                     <ReactRotatingText items={[ "Student", "Programmer", "Web Developer", "Software Engineer"]} />
                     </h2>
                     {/* <h1><span className="wrap">{text}</span></h1> */}
-                    
+                    <div className="star">
+                        <span></span>
+                        <span className="star2"></span>
+                        <span className="star3"></span>
+                    </div>
                 </Col>
                 {/* <Col xs={12} md={6} xl={5}>
                     <img src={headerImg} alt="Header Img" />
                 </Col> */}
-                <section classame="shooting">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </section>
+                
             </Row>
         </Container>
 
