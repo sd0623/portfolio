@@ -60,9 +60,15 @@ export const Banner = () => {
                     {/* <h1><span className="wrap">{text}</span></h1> */}
                     
                 </Col>
-                <Col xs={12} md={6} xl={5}>
+                {/* <Col xs={12} md={6} xl={5}>
                     <img src={headerImg} alt="Header Img" />
-                </Col>
+                </Col> */}
+                <section classame="shooting">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </section>
             </Row>
         </Container>
 
