@@ -29,38 +29,7 @@ export const Projects = () => {
         }
       };
 
-    const projects = [
-        {
-            title: "Hangman game",
-            description: "Design & Development",
-            imgUrl: projImg1,
-        },
-        {
-            title: "Hangman game",
-            description: "Design & Development",
-            imgUrl: projImg2,
-        },
-        {
-            title: "Hangman game",
-            description: "Design & Development",
-            imgUrl: projImg3,
-        },
-        {
-            title: "Hangman game",
-            description: "Design & Development",
-            imgUrl: projImg1,
-        },
-        {
-            title: "Hangman game",
-            description: "Design & Development",
-            imgUrl: projImg2,
-        },
-        {
-            title: "Hangman game",
-            description: "Design & Development",
-            imgUrl: projImg3,
-        },
-    ];
+    
 
 
     return (
@@ -78,15 +47,15 @@ export const Projects = () => {
                                 </div>
                                 <div className="item">
                                     <img src={projImg1} alt="Image" />
-                                    <h5>UI/UX Design</h5>
+                                    <h5>Research Study</h5>
                                 </div>
                                 <div className="item">
                                     <img src={projImg1} alt="Image" />
-                                    <h5>Programming</h5>
+                                    <h5>Deep Learning Neural Networks</h5>
                                 </div>
                                 <div className="item">
                                     <img src={projImg1} alt="Image" />
-                                    <h5>Logo Design</h5>
+                                    <h5>Kernel Modules</h5>
                                 </div>
                             </Carousel>
                         </div>
