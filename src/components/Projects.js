@@ -42,7 +42,7 @@ export const Projects = () => {
                         <h2>Projects</h2>
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
-                                    <img src={aws_logo} alt="logo"></img>
+                                    <img src={aws_logo} alt="logo" className="invert"></img>
                                     <h5 href="#">MyMenu</h5>
                                     <p>
                                         Full Stack Web development using AWS amplify, AWS ElasticSearch, AWS AppSync, AWS Cognito, Lambda functions, DynamoDB, and S3 buckets for backend and React and Bootstrap for frontend. 

@@ -33,7 +33,7 @@ export const Skills = () => {
                                 I enjoy solving complex and challenging problems, which I have practiced through competitive programming. 
                             </p>
                             <p>
-                                With my strong dedication in computer science, I can bring an impactful contribution to any project.
+                                With my strong dedication to computer science, I can bring an impactful contribution to any project.
                                 I'm excited to contribute my passion and skills to the ever-evolving world of technology as a software engineer. 
                             </p>
                         </div>
