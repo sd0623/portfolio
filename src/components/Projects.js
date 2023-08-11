@@ -31,12 +31,10 @@ export const Projects = () => {
           items: 1
         }
       };
-
     
 
-
     return (
-        <section className="project" id="prioject">
+        <section className="project" id="projects">
             <Container>
                 <Row>
                     <Col>
@@ -79,7 +77,8 @@ export const Projects = () => {
                                     <img src={linux} alt="logo" className="invert"></img>
                                     <h5 href="#">Linux Kernel</h5>
                                     <p>
-
+                                        Built and programmed a character-mode Linux device driver as a Kernel module in virtual machine.
+                                        Implemented two separate kernel modules for input and output device with shared memory to manage communication. 
                                     </p>
                                 </div>
                             </Carousel>
