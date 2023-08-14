@@ -2,6 +2,7 @@ import { Col, Container, Nav, Row, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import Carousel from "react-multi-carousel";
 import colorSharp from "../assets/img/color-sharp2.png";
+import colorSharp2 from "../assets/img/color-sharp.png";
 
 
 import aws_logo from "../assets/img/aws_logo.png";
@@ -87,6 +88,7 @@ export const Projects = () => {
                 </Row>
             </Container>
             <img className="background-image-right" src={colorSharp} />
+            <img className="background-image-left" src={colorSharp2} />
         </section>
     )
 }
